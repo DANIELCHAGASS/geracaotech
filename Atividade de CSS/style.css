@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #8B1A8B; 
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.hero-banner {
+    background-color: #A040E0; 
+    height: 200px;
+    width: 100%;
+}
+
+
+.content {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.about h2, .team-section h2 {
+    color: #C02080; 
+    margin-bottom: 5px;
+}
+
+hr {
+    width: 50px;
+    border: 1px solid #8B1A8B;
+    margin: 0 auto 20px auto;
+}
+
+.about p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #A040E0;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    color: #8B1A8B;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.team-member span {
+    color: #C02080;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #8B1A8B;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
